@@ -1,0 +1,18 @@
+{
+  "name": "template-string",
+  "version": "1.0.0",
+  "description": "Safe string interpolation with escape",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["template", "string", "interpolation", "format"],
+  "author": "Tox",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
